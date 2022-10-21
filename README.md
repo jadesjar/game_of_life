@@ -1,5 +1,7 @@
 # game_of_life
 
+![Game of Life](game_of_life_img.jpg "Game of Life")
+
 This repo contains the interview data for implementing Conway's Game of Life.
 
 You will be implementing Conway's Game of Life. Your program will take the
@@ -8,8 +10,10 @@ and output state. Your program will then run Conway's Game of Life for one
 step, and compare the output of your implementation against the output state in
 the data file.
 
+## Game Rules
+
 Conway's Game of Life is a Cellular Automata. It's a function that operates on
-a grid of "living" or "dead" cells (in the case of this repo, 1 is alive, and
+a grid of "living" and "dead" cells (in the case of this repo, 1 is alive, and
 0 is dead), and in each step of the function some cells will either live, or
 die. 
 
@@ -21,14 +25,14 @@ Your implementation should follow these rules:
 You can read more here: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
 
 
-#### Data Files
+## Data Files
 
 There is a list of json data files in the `data/` folder for you to use to test
 your implementation. Each file has an input and output field containing MxN
 arrays which represent the input state for your function, and the expected
 resulting state of your function.
 
-#### life.py
+## life.py
 
 I have provided a starting implementation in python in the file `life.py`, feel
 free to use this. It handles the file reading and parsing, provides a stubbed

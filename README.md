@@ -1,7 +1,5 @@
 # game_of_life
 
-![Game of Life](game_of_life_img.jpg "Game of Life")
-
 This repo contains the interview data for implementing Conway's Game of Life.
 
 You will be implementing Conway's Game of Life. Your program will take the
